@@ -20,10 +20,10 @@ __HELP__ = """
 
 
 ALT = f"""
-™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑 ᴠᴇʀsɪᴏɴ : `{__Version__}`
+™°‌ Rɪᴛᴇsʜ ᴠᴇʀsɪᴏɴ : `{__Version__}`
 ➪𝗣ʏᴛʜᴏɴ 𝗩ᴇʀsɪᴏɴ : `{pyver.split()[0]}`
 ➪𝗣ʏʀᴏɢʀᴀᴍ 𝗩ᴇʀsɪᴏɴ : `{pyrover}`
-➪𝗨ᴘᴅᴀᴛᴇꜱ : @SHIVANSH474\n"""
+➪𝗨ᴘᴅᴀᴛᴇꜱ : @shine_pfp\n"""
 
 
 @Client.on_message(filters.command(["ping"], ["/", ".", "!"]) & filters.user(SUDO_USERS))
@@ -32,7 +32,7 @@ async def ping(_, e: Message):
       Fuk = await e.reply("**Pong !!**")
       end = datetime.datetime.now()
       ms = (end-start).microseconds / 1000
-      await Fuk.edit_text(f"◇ ᴛʜᴇ ™°‌ 𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑\n◇ ᴘɪɴɢ: `{ms}ms`\n◇ ᴠᴇʀsɪᴏɴ: `{__Version__}`")
+      await Fuk.edit_text(f"◇ ᴛʜᴇ ™°‌ Rɪᴛᴇsʜ\n◇ ᴘɪɴɢ: `{ms}ms`\n◇ ᴠᴇʀsɪᴏɴ: `{__Version__}`")
 
 
 @app.on_message(filters.command(["alive"], ["/", ".", "!"]) & filters.user(SUDO_USERS))
